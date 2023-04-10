@@ -47,7 +47,7 @@ class _StopwatchAppState extends State<StopwatchApp> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Stopwatch"),
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.orange,
       ),
 
       body: SafeArea(

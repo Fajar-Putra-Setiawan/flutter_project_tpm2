@@ -12,7 +12,7 @@ class Petunjuk extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pusat Bantuan "),
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.orange,
       ),
 
       body: ListView(

@@ -17,7 +17,7 @@ class _HalamanDetailState extends State<HalamanDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.orange,
         centerTitle: true,
         title: Text("${widget.place.name}"),
         actions: [

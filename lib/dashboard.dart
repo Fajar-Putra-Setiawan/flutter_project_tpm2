@@ -28,8 +28,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Welcome, User"),
-        backgroundColor: Colors.grey.shade700,
+        title: const Text("Welcome, User",style: TextStyle(color: Colors.black),),
+        backgroundColor: Colors.orange,
       ),
 
       body: Container(
@@ -46,15 +46,8 @@ class MyHomePage extends StatelessWidget {
                         width: 150,
                         decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20.0),
-                        color: Colors.orange[600],
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black,
-                            spreadRadius: 2,
-                            blurRadius: 5,
-                            offset: Offset(0, 2), // changes position of shadow
-                          ),
-                        ],
+                        color: Colors.orange,
+
                         ),
                         child: Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -62,8 +55,9 @@ class MyHomePage extends StatelessWidget {
                             children: <Widget>[
                             Icon(Icons.people,
                             size: 80,
+                            color: Colors.black,
                             ),
-                            Text('Anggota')
+                            Text('Anggota', style: TextStyle(color: Colors.black),)
                             ],
                         ),
                           ),
@@ -81,15 +75,8 @@ class MyHomePage extends StatelessWidget {
                     width: 150,
                     decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.0),
-                    color: Colors.orange[600],
-                    boxShadow: [
-                    BoxShadow(
-                      color: Colors.black,
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 2), // changes position of shadow
-                    ),
-                  ],
+                    color: Colors.orange,
+
                     ),
                     child: Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -97,8 +84,9 @@ class MyHomePage extends StatelessWidget {
                         children: <Widget>[
                         Icon(Icons.timer,
                         size: 80,
+                        color: Colors.black,
                         ),
-                        Text('Stopwatch')
+                        Text('Stopwatch',style: TextStyle(color: Colors.black))
                         ],
                       ),
                       ),
@@ -116,15 +104,8 @@ class MyHomePage extends StatelessWidget {
                     width: 150,
                     decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.0),
-                    color: Colors.orange[600],
-                    boxShadow: [
-                    BoxShadow(
-                      color: Colors.black,
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 2), // changes position of shadow
-                    ),
-                  ],
+                    color: Colors.orange,
+
                     ),
                     child: Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -132,8 +113,9 @@ class MyHomePage extends StatelessWidget {
                         children: <Widget>[
                         Icon(Icons.place_outlined,
                         size: 80,
+                        color: Colors.black,
                         ),
-                        Text('Situs Rekomendasi')
+                        Text('Situs Rekomendasi',style: TextStyle(color: Colors.black),)
                         ],
                       ),
                       ),
@@ -151,15 +133,8 @@ class MyHomePage extends StatelessWidget {
                     width: 150,
                     decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.0),
-                    color: Colors.orange[600],
-                    boxShadow: [
-                    BoxShadow(
-                      color: Colors.black,
-                      spreadRadius: 2,
-                      blurRadius: 5,
-                      offset: Offset(0, 2), // changes position of shadow
-                    ),
-                  ],
+                    color: Colors.orange,
+
                     ),
                     child: Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -167,8 +142,9 @@ class MyHomePage extends StatelessWidget {
                         children: <Widget>[
                         Icon(Icons.favorite,
                         size: 80,
+                        color: Colors.black,
                         ),
-                        Text('Favorite')
+                        Text('Favorite',style: TextStyle(color: Colors.black),)
                         ],
                       ),
                       ),

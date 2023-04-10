@@ -94,7 +94,7 @@ class _LoginPage extends State<LoginPage> {
             );
             ScaffoldMessenger.of(context).showSnackBar(snackBar);
           },
-          color: Colors.lightBlueAccent,
+          color: Colors.orange,
           child: Text('Log In', style: TextStyle(color: Colors.white)),
         ),
       ),

@@ -11,7 +11,8 @@ class Anggota extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Stopwatch"),
+          title: Text("Anggota"),
+          backgroundColor: Colors.orange,
         ),
         body: GridView.count(
           padding: const EdgeInsets.all(25),

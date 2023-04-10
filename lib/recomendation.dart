@@ -12,7 +12,7 @@ class Recomendation extends StatelessWidget {
       appBar: AppBar(
         title: Text("Tourism Place"),
         centerTitle: true,
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.orange,
       ),
       
       body: GridView.builder(

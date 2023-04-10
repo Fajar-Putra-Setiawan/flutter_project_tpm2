@@ -14,7 +14,7 @@ class Help extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Help"),
-          backgroundColor: Colors.grey.shade600,
+          backgroundColor: Colors.orange,
         ),
         body: GridView.count(
           padding: const EdgeInsets.all(25),
