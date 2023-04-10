@@ -13,7 +13,6 @@ class HalamanDetail extends StatefulWidget {
 
 
 class _HalamanDetailState extends State<HalamanDetail> {
-  bool isFavorite = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,10 +24,10 @@ class _HalamanDetailState extends State<HalamanDetail> {
           IconButton(
             onPressed: () {
               setState(() {
-                isFavorite = !isFavorite;
+                widget.place.isFavorite = true;
               });
             },
-            icon: (isFavorite)
+            icon: (widget.place.isFavorite)
                 ? Icon(Icons.favorite,color: Colors.red,)
                 : Icon(Icons.favorite_border),
           ),

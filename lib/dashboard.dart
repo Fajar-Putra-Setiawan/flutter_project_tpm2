@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project_tpm2/anggota.dart';
+import 'package:flutter_project_tpm2/favorite.dart';
 import 'package:flutter_project_tpm2/recomendation.dart';
 import 'package:flutter_project_tpm2/stopwatch.dart';
 
@@ -139,6 +140,41 @@ class MyHomePage extends StatelessWidget {
                     ),
                      onTap: () {
                       Route route = MaterialPageRoute(builder: (context) => Recomendation());
+                      Navigator.push(context, route);
+                      },
+                  ),
+                  SizedBox(height: 16.0),
+
+                  new GestureDetector(
+                    child: Container(
+                    height: 120,
+                    width: 150,
+                    decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20.0),
+                    color: Colors.orange[600],
+                    boxShadow: [
+                    BoxShadow(
+                      color: Colors.black,
+                      spreadRadius: 2,
+                      blurRadius: 5,
+                      offset: Offset(0, 2), // changes position of shadow
+                    ),
+                  ],
+                    ),
+                    child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                        children: <Widget>[
+                        Icon(Icons.favorite,
+                        size: 80,
+                        ),
+                        Text('Favorite')
+                        ],
+                      ),
+                      ),
+                    ),
+                     onTap: () {
+                      Route route = MaterialPageRoute(builder: (context) => FavoritePage());
                       Navigator.push(context, route);
                       },
                   ),
